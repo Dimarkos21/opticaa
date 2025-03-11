@@ -1,0 +1,117 @@
+body, html {
+    width: 100%; 
+height: 100%;
+margin: 0;
+padding: 0;
+background-color:  #DBF7FB;
+background-size: cover;
+
+    overflow-x: hidden;
+overflow-y: auto;
+
+}
+#barra { 
+width: 100%;
+
+height: 5.2rem;
+z-index: 1000;
+
+    display: flex;
+
+    justify-content: space-between;
+    font-size: 1.7rem;
+
+font-family: fantasy;
+color: aquamarine;
+   background-color: aliceblue;
+    position: sticky;
+   top: 0;
+    left: 0;
+    
+
+    
+}
+
+
+#boton {
+   height: 4rem;
+   
+   background-color: aqua;
+   border-radius: 2rem;
+   margin: 1rem;
+ padding: 1rem;
+
+
+ background-image: url(https://th.bing.com/th/id/OIP.KT-wxyrX4VkbcVESxh2tVgHaEv?w=246&h=180&c=7&r=0&o=5&pid=1.7);
+}
+
+#contenedor1 {
+    width: 99%;
+    display: flex;
+
+}
+#img-1 {
+    width: 16rem;
+
+  
+ background: transparent;
+}
+#contenedor1-text{
+    width: 99%;
+    height: 40%;
+    background-color: rgb(149, 250, 236);
+    border: solid  ;
+    border-top-left-radius: 4rem;
+   border-top-style: ridge;
+}
+#subtitle-1 {
+  width: 99%;
+   
+font-size: 2.5rem;
+
+}
+
+#contenedor2 {
+    
+    width: 99%;
+    display: flex;
+
+}
+#img-2 {
+    width: 20rem;
+  
+}
+#descripcion-2 {
+    font-size: 2.5rem;
+    }
+
+    #footer-container{
+        width: 100%;
+        display: flex;
+        flex-direction: end;
+              justify-content: center;
+    }
+    footer {
+
+        width: 100%;
+        height: 6rem;
+   
+text-align: center;
+
+outline: solid 0.2rem green;
+    }
+.logo {
+    width: 2.5rem;
+}
+#derecho {   
+    font-size: 1.5rem;
+margin: 0;
+padding: 0.4rem;
+}
+
+img {width: 40%;}
+
+#chart {
+    max-width: 100%;
+    height: 100%;
+  }
